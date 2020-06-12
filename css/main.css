@@ -1,0 +1,124 @@
+html,
+body {
+  font-size: 100%;
+}
+
+body {
+  background: #f7f7f7;
+  color: #444444;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  cursor: default;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.title{
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+}
+
+.subtitle{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.home-item
+{
+    position: relative;
+}
+
+.home-item>img
+{
+    display: block;
+    padding: 1.25rem;
+    margin: 1rem auto 0 auto;
+    height: 60%;
+    width: 60%;
+}
+
+.home-item h2 {
+    font-size:  1.5rem;
+    text-align: center;
+}
+
+.home-item .btn-hide {
+    font-size: 2em;
+    cursor: pointer;
+
+    position: absolute;
+    right: 0;
+}
+
+.home-item .btn-hide:hover {
+   color: #e30;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    text-rendering: optimizeLegibility;
+}
+
+.banner img {
+    box-shadow: 0 9px 12px rgba(136, 136, 136, 0.27);
+    margin: 0 auto;
+    display: block;
+    margin-bottom:  1.7em;
+}
+
+.btn-view
+{
+    width: 40%;
+    height: 31%;
+    opacity: 0.2;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50%,-50%);
+
+    background: #fff;
+    border-radius: 50%;
+    border: 1px solid #333;
+}
+
+.btn-view:hover
+{
+    opacity: 1;
+    transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity .6s ease-in-out;
+    -webkit-transition: opacity .6s ease-in-out;
+}
+
+.btn-view img
+{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#mainmodal .item-image
+{
+    display: block;
+    margin: 0 auto;
+}
